@@ -48,6 +48,10 @@ public class StringUtil {
 		String regex = "1[3578]\\d{9}";
 		return str.matches(regex);
 	}
+	public static boolean isNum(String str) {
+		String regex = "\\d+";
+		return str.matches(regex);
+	}
 	/**
 	 * @Title: isEmail   
 	 * @Description: 验证是否为邮箱   
